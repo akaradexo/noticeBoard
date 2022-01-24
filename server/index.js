@@ -8,7 +8,7 @@ app.use(express.json({ limit: '30mb', extended: true }));
 app.use(express.urlencoded({ limit: '30mb', extended: true }));
 app.use(cors());
 
-const CONNECTION_URL = 'mongodb+srv://mernfullstack:mernfullstack123@cluster0.jngbl.mongodb.net/MERNFullstack?retryWrites=true&w=majority';
+const CONNECTION_URL = 'mongodb+srv://noticeBoard:ztH7OJhafaVvlCRx@cluster0.evupw.mongodb.net/noticeBoard?retryWrites=true&w=majority';
 const PORT = 5000;
 
 app.use('/posts', postRoutes); //http://localhost:5000/posts - CRUD - getPosts, getPost, createPost, updatePost, deletePost
